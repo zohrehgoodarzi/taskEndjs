@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="alertBoxSubmit"></div>
+    <div class="formContainer">
+        
+        <h4>Contact Us</h4>
+        <form action="#" id="form" >
+            <div class="fullname">
+                <div class="familyName">
+                    <label for="firstName" id="lableFirstName">FirstName <span>*</span></label> 
+                    <input type="text" name="firstname" id="firstName" autocomplete="off">
+                    <div id="alertBox1FirstName"></div>
+                </div>
+           
+    
+                <div class="familyName">
+                    <label for="lastName">LastName <span>*</span></label>
+                    <input type="text" name="lastname" id="lastName" autocomplete="none">
+                    <div id="alertBox2LastName"></div>
+                </div>
+            </div>
+            
+            
+            <div id="emailDiv">
+                <label for="email">Email Address <span>*</span></label>
+                <input type="email" name="Email" id="email" autocomplete="none">
+                <div id="alertBox3Email"></div>
+            </div>
+
+
+
+
+            <div class="queryTypeContainer">
+
+            <label id="queryType">QueryType <span>*</span></label>
+
+            <div class="queryTypeRadio">
+           
+                <div class="radioButtonDiv" id="firstRadioDiv">
+                    <input type="radio" id="generalEnquiry" name="supportrequest">
+                   GeneralEnquiry
+
+                </div>
+                <div class="radioButtonDiv" id="lastRadioDiv">
+                    <input type="radio" id="supportRequest" name="supportrequest" >
+                    SupportRequest
+                   
+                </div>
+            </div>
+            <div id="alertBoxRadio"></div>
+            </div>
+
+
+
+
+            <div class="messageDiv">
+                <label for="message">Message <span>*</span></label>
+                <textarea name="messagebox" id="message" autocomplete="none"></textarea>
+                <div id="alertBoxMessage"></div>
+
+            </div>
+            
+            <div class="checkboxDiv">
+                <input type="checkbox" name="accespt" id="acceptCheckbox">
+                <label>I consent to being contacted by the team </label>
+                <div id="alertBoxCheckBox"></div>
+
+            </div>
+
+            <button type="submit" id="buttonSubmit">Submit</button>
+            
+
+        </form>
+
+
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

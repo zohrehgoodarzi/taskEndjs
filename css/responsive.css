@@ -1,0 +1,160 @@
+@media (max-width:480px) {
+    body{
+        width: 100%;
+        margin: 5px auto;
+    }
+    .formContainer{
+       width: 90%;
+        padding: 2px auto;
+        /* margin-top: -38px; */
+    }
+
+    .formContainer h4{
+        padding: 0;
+        margin-top:-25px;
+    }
+    .fullname{
+       flex-direction: column;
+       gap: 20px;
+       margin-bottom: 30px;
+    }
+    .familyName{
+        font-size: 1.5rem;
+        flex-direction: column;
+        gap: 18px;
+       
+    }
+    .familyName input{
+        width: 100%;
+        padding:8px 0;
+        
+    }
+
+    .queryTypeRadio{
+        flex-direction: column;
+        
+       
+    }
+    #lastRadioDiv{
+        margin-top: -20px;
+    }
+    .radioButtonDiv {
+        width: 100%;
+        padding:8px 0px 8px 25px;
+        gap: 0;
+
+    }
+   #emailDiv{
+    margin-top: 0;
+   }
+   #emailDiv #email{
+    padding:8px 0;
+   }
+   
+   .queryTypeContainer{
+    margin-top: 30px;
+   }
+
+   #alertBox1FirstName{
+    margin-top: -20px;
+    height: 5px;
+}
+#alertBox2LastName{
+    margin-top: -20px;
+    height: 5px;
+
+}
+
+
+#alertBox3Email{
+    margin-top: -20px;
+    height: 5px;
+}
+
+#alertBoxRadio{
+    height: 5px;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
+
+#alertBoxMessage{
+    height: 5px;
+    margin-top: -20px;
+   margin-bottom: 15px;
+    }
+    
+    #alertBoxCheckBox{
+        height: 5px;
+        margin-top: -2px;
+        margin-bottom: 5px;
+    }
+    #alertBoxSubmit{
+        height: 50px;
+        position: absolute;
+        z-index: 100;
+      
+
+    }
+    .alertTextBoxSubmit{
+        width: 430px;
+        height: 150px;
+        background-color: #43615c;
+        color: whitesmoke;
+        margin:0 28px ;
+        border-radius: 10px;
+        padding-top: 5px!important;
+    
+    
+    }
+    #message{
+        height: 60px;
+        margin-top: -20px;
+    }
+    
+}
+
+
+
+
+@media (max-width:768px) {
+    body{
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .formContainer{
+      width: 95%;
+      margin: 0 20px;
+      padding-left: 40px;
+    }
+    .familyName{
+        gap: 0px;
+    }
+
+    .familyName{
+        width: 100%;
+        
+    }
+    #firstName{
+        width: 300px;
+    }
+    #lastName{
+        width: 300px;
+        margin-left: -30px;
+    }
+
+    .radioButtonDiv{
+        /* padding: 0;
+        margin: 0; */
+        width: 300px;
+        /* margin-left: -30px; */
+
+    }
+
+    #lastRadioDiv{
+        margin-left: -30px;
+
+    }
+}

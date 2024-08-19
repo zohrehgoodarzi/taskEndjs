@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Karla-Regular";
+  src: url(../fonts/static/Karla-Regular.eot);
+  src: url(../fonts/static/Karla-Regular.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/static/Karla-Regular.woff) format("woff"),
+    url(../fonts/static/Karla-Regular.woff2) format("woff2"),
+    url(../fonts/static/Karla-Regular.otf) format("otf");
+}
+
+
+
+@font-face {
+    font-family: "Karla-Bold";
+    src: url(../fonts/static/Karla-Bold.eot);
+    src: url(../fonts/static/Karla-Bold.eot?#iefix) format("embedded-opentype"),
+      url(../fonts/static/Karla-Bold.woff) format("woff"),
+      url(../fonts/static/Karla-Bold.woff2) format("woff2"),
+      url(../fonts/static/Karla-Bold.otf) format("otf");
+  }
+
+
+  @font-face {
+    font-family: 'Karla-Italic-VariableFont_wght';
+    src: url(../fonts/Karla-Italic-VariableFont_wght.eot);
+    src: url(../fonts/Karla-Italic-VariableFont_wght.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Karla-Italic-VariableFont_wght.otf) format('otf'),
+         url(../fonts/Karla-Italic-VariableFont_wght.woff) format('woff'),
+         url(../fonts/Karla-Italic-VariableFont_wght.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Karla-VariableFont_wght';
+    src: url(../fonts/Karla-VariableFont_wght.eot);
+    src: url(../fonts/Karla-VariableFont_wght.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Karla-VariableFont_wght.otf) format('otf'),
+         url(../fonts/Karla-VariableFont_wght.woff) format('woff'),
+         url(../fonts/Karla-VariableFont_wght.woff2) format('woff2');
+  }
